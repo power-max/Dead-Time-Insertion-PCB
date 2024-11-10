@@ -30,5 +30,5 @@ fp-info-cache
 *.xml
 *.csv
 
-# Zip / compressed files (just the compressed version of the exported gerber files for purposes of )
+# Zip / compressed files (just the compressed version of the exported gerber files)
 .zip
