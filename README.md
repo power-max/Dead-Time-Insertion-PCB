@@ -17,7 +17,7 @@ Invert output allows the output pins 7 and 8 to be inverted, such as may be requ
 This is just an ENABLE. The outputs are held at whatever the respective LOW state would be depending on the state of Pin 3, ensuring both Hi and Lo side FETs remain OFF.
 
 ## Pin 5 (VCC)
-5V power for the circuit. Please respect the voltage requirements for the 7400 series IC you choose to populate. I recommend a 74HC86.
+power for the circuit. Added an LDO regulator footprint (SOT-89) to the circuit, would recommend an LDO to allow operation down to around 3V depending on output voltage requirements and input voltage range.
 
 ## Pin 6 (GND)
 GND, RTN, or COM. Whatever you prefer to call it.
